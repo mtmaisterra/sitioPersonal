@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    height: screen;
+    background-color: rgb(186, 186, 186);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact {
+    width: 80%;
+    background-color: rgba(0, 0, 255, 0.588);
+    border: 0.5rem solid black;
+    margin: 10rem;
+}
+
+.title-contact {
+    color: white;
+    font-family: 'Roboto';
+    padding: 1rem;
+    text-align: center;
+}
+
+.input-contact {
+    margin: 1rem;
+    width: 95%;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.label-contact {
+    color: white;
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    font-family: 'Roboto';
+}
+
+.input-comentarios {
+    margin: 1rem;
+    width: 95%;
+    height: 10rem;
+    padding: 0.5rem;
+}
+
+.div-submit{
+    text-align: center;
+    margin: 2rem;    
+}
+.button-submit{
+    width: 8rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    border-radius: 1rem;
+}
+.button-submit:hover{
+text-transform: uppercase;
+background-color: blue;
+color: white;
+border: 0.5rem solid white;
+}
