@@ -1,0 +1,52 @@
+.intro {
+    width: 100%;
+    display: flex;
+    background-color: rgba(86, 73, 110, 0.411);
+    margin-top: 2rem;
+}
+
+.div-intro {
+    align-items: left;
+    width: 60%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.title-intro {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 10rem;
+    transition: transform 1s;
+}
+
+.presentacion-intro {
+    width: 50%;
+    align-items: right;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-intro {
+    width: 100%;
+    align-content: center;
+    padding: 4rem;
+}
+
+.img-intro-presentacion {
+    width: 40%;
+    margin: 2rem;
+    text-align: center;
+    border-radius: 40% 20% 10% 30%;
+}
+
+.div-button{
+    width: 100%;
+    align-content: center;
+    margin: 2rem;
+}
+
+.button-intro{
+    
+}

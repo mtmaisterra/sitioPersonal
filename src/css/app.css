@@ -1,11 +1,9 @@
-.body-app {
+/* .body-app {
     width: 100%;
-    height: screen;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(73, 9, 133);
 }
 
 .navBar {
@@ -17,7 +15,6 @@
 }
 
 .div-navbar {
-    background-color: rgb(74, 73, 74);
     justify-content: space-between;
     align-items: center;
     color: white;
@@ -42,4 +39,4 @@
     justify-content: right;
     width: 50%;
 
-}
+} */

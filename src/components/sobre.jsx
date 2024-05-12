@@ -6,17 +6,17 @@ function Sobre() {
         <>
             <div className='sobreMi'>
                 <div className='div-sobreMi'>
-                    <h1 className='title-sobreMi'>
-                        Presentándome
+                    <h1 className='title'>
+                        Hola, soy Teresa Maisterra
                     </h1>
                 </div>
                 <div className='presentacion'>
-                <div className='imagen-presentacion'>
-<img src='/public/mia-2.png'/>
-                </div>
+                    <div className='div-imagen'>
+                        <img src='/mia-2.png' className='img-presentacion' />
+                    </div>
                     <div className='text-presentacion'>
                         <p className='p-presentacion'>
-                            Mi nombre es María Teresa Maisterra, actualmente tengo 48 años, vivo en San Pedro,
+                            actualmente tengo 48 años, vivo en San Pedro,
                             Departamento Castro Barros en la provincia de La Rioja, República Argentina.
                         </p>
                         <p className='p-presentacion'>
@@ -39,7 +39,6 @@ function Sobre() {
                     </div>
                 </div>
             </div>
-/*             */
         </>
     )
 }

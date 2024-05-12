@@ -1,27 +1,32 @@
 import React from 'react';
 import '../css/navbar.css';
 
-function NavBar () {
+function NavBar() {
     return (
         <>
             <nav className='navBar'>
                 <div className='div-navbar'>
                     <div className='div-logo'>
-                        <img src='/MaisterraLogo.png' className='img-logo'></img>
+                        <img src='/MaisterraLogo.jpeg' className='img-logo' />
                     </div>
                     <div className='enlaces-navbar'>
                         <div className='enlace'>
-                            <a href='/sobre.jsx' className='a-navbar'>
-                                Desarrollo Académico
+                            <a href='../components/sobre.jsx' className='a-navbar'>
+                                Sobre mi
                             </a>
                         </div>
                         <div className='enlace'>
-                            <a href='desarrollo.jsx' className='a-navbar'>
-                                Desarrollo Profesional
+                            <a href='#estudios' className='a-navbar'>
+                                Estudios y Cursos
                             </a>
                         </div>
                         <div className='enlace'>
-                            <a href='\contact.html' className='a-navbar'>
+                            <a href='#proyectos' className='a-navbar'>
+                                Proyectos
+                            </a>
+                        </div>
+                        <div className='enlace'>
+                            <a href='#contact' className='a-navbar'>
                                 Contacto
                             </a>
                         </div>

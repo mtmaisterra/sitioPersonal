@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
+import React from 'react';
+import '../css/contact.css';
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/public/MaisterraLogo.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/contact.css">
-    <title>Contacto</title>
-</head>
-
-<body>
-    <form class="form-contact" action="/index.html" method="post" enctype="multipart/form-data">
+function Contact() {
+    return(
+        <>
+<form class="form-contact" action="/index.html" method="post" enctype="multipart/form-data">
         <h1 id="contact" class="title-contact">Contacto</h1>
         <div class="div-contact">
             <div>
@@ -42,6 +36,7 @@
             </button>
         </div>
     </form>
-</body>
-
-</html>
+        </>
+    )
+}
+export default Contact;

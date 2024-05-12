@@ -1,5 +1,9 @@
     body {
         width: 100%;
-        height: screen;       
-        background-color: rgb(186, 186, 186);
+        height: screen;
+        background-image: url(/fondo2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
+
+  

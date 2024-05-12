@@ -1,0 +1,9 @@
+.text-presentacion {
+    margin: 1rem;
+}
+
+.p-presentacion {
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
