@@ -1,10 +1,8 @@
-'use client';
 import React from 'react';
 import './css/app.css';
-import './components/intro';
+import Intro from './screen/intro';
 
-
-const App = () => {
+function App() {
     return (
         <>
             <Intro />

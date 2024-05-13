@@ -1,8 +1,7 @@
-'use client';
 import React from 'react';
-import NavBar from './components/NavBar.jsx';
-import Sobre from './components/sobre.jsx';
-import Footer from './components/Footer.jsx';
+import NavBar from '../components/NavBar';
+import Sobre from '../components/sobre';
+import Footer from '../components/Footer';
 
 function Home() {
     return (

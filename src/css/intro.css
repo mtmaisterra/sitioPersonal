@@ -1,8 +1,11 @@
 .intro {
     width: 100%;
-    display: flex;
-    background-color: rgba(86, 73, 110, 0.411);
+    height: screen;
+  /*   background-color: rgba(86, 73, 110, 0.411); */
     margin-top: 2rem;
+}
+.section{
+    display: flex;
 }
 
 .div-intro {
@@ -16,9 +19,20 @@
 
 .title-intro {
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto';    
     font-size: 10rem;
-    transition: transform 1s;
+    animation: moveLeft 1s infinite alternate;
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(5);
+        color: blue;
+    }
+    to {
+        transform: translateX(-40px);
+        color: red;
+    }
 }
 
 .presentacion-intro {
@@ -42,11 +56,25 @@
 }
 
 .div-button{
+    display: flex;
     width: 100%;
     align-content: center;
     margin: 2rem;
+    justify-content: center;
 }
 
 .button-intro{
-    
+    text-align: center;
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+    border: 6px solid white;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+.button-intro:hover{
+    background-color: rgb(64, 7, 118);
+    border:6px solid black;
 }

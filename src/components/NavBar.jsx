@@ -1,38 +1,46 @@
 import React from 'react';
 import '../css/navbar.css';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 
 function NavBar() {
     return (
         <>
-            <nav className='navBar'>
-                <div className='div-navbar'>
-                    <div className='div-logo'>
-                        <img src='/MaisterraLogo.jpeg' className='img-logo' />
+            <Router>
+                <nav className='navBar'>
+                    <div className='div-navbar'>
+                        <div className='div-logo'>
+                            <img src='/MaisterraLogo.jpeg' className='img-logo' />
+                        </div>
+                        <ul className='enlaces-navbar'>
+                            <li className='enlace'>
+                                <Link to='./components/sobre.jsx'>
+                                    Sobre mi
+                                </Link>
+                            </li>
+                            <li className='enlace'>
+                                <Link to='./screen/estudios.jsx'>
+                                    Estudios
+                                </Link>
+                            </li>
+                            <li className='enlace'>
+                                <Link to='./screen/proyects.jsx'>
+                                    Proyectos
+                                </Link>
+                            </li>
+                            <li className='enlace'>
+                                <Link to='./screen/contact.jsx'>
+                                    Contacto
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
-                    <div className='enlaces-navbar'>
-                        <div className='enlace'>
-                            <a href='../components/sobre.jsx' className='a-navbar'>
-                                Sobre mi
-                            </a>
-                        </div>
-                        <div className='enlace'>
-                            <a href='#estudios' className='a-navbar'>
-                                Estudios y Cursos
-                            </a>
-                        </div>
-                        <div className='enlace'>
-                            <a href='#proyectos' className='a-navbar'>
-                                Proyectos
-                            </a>
-                        </div>
-                        <div className='enlace'>
-                            <a href='#contact' className='a-navbar'>
-                                Contacto
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+                </nav>
+                <Route path='/sobre' Component={Sobre} />
+                <Route path='/estudios' Component={Estudios} />
+                <Route path='/proyects' Component={Proyects} />
+                <Route path='/contact' Component={Contact} />
+            </Router>
         </>
     )
 }
