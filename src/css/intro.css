@@ -1,10 +1,11 @@
 .intro {
     width: 100%;
     height: screen;
-  /*   background-color: rgba(86, 73, 110, 0.411); */
+    /*   background-color: rgba(86, 73, 110, 0.411); */
     margin-top: 2rem;
 }
-.section{
+
+.section {
     display: flex;
 }
 
@@ -19,7 +20,7 @@
 
 .title-intro {
     text-align: center;
-    font-family: 'Roboto';    
+    font-family: 'Roboto';
     font-size: 10rem;
     animation: moveLeft 1s infinite alternate;
 }
@@ -29,6 +30,7 @@
         transform: translateX(5);
         color: blue;
     }
+
     to {
         transform: translateX(-40px);
         color: red;
@@ -55,7 +57,7 @@
     border-radius: 40% 20% 10% 30%;
 }
 
-.div-button{
+.div-button {
     display: flex;
     width: 100%;
     align-content: center;
@@ -63,7 +65,7 @@
     justify-content: center;
 }
 
-.button-intro{
+.button-intro {
     text-align: center;
     font-size: 2rem;
     background-color: blue;
@@ -74,7 +76,8 @@
     text-decoration: none;
     padding: 1rem;
 }
-.button-intro:hover{
+
+.button-intro:hover {
     background-color: rgb(64, 7, 118);
-    border:6px solid black;
+    border: 6px solid black;
 }

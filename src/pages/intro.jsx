@@ -1,9 +1,8 @@
 import React from 'react';
 import '../css/intro.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Home from './Home';
 
-function Intro() {
+function Intro() { 
+
     return (
         <>
             <div className='intro'>
@@ -19,16 +18,13 @@ function Intro() {
                         </div>
                     </div>
                 </div>
-                <Router>
-                    <div className='div-button'>
-                        <button className='button-intro' >
-                            <Link to='/home'>
-                                Ingresar
-                            </Link>
+                <div className='div-button'>
+                    <div>
+                        <button href='/home' className='button-intro'>
+                            Ingresar
                         </button>
                     </div>
-                    <Route path='/home' component={Home} />
-                </Router>
+                </div>
             </div>
         </>
     )

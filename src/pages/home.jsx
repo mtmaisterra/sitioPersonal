@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Sobre from '../components/sobre';
-import Footer from '../components/Footer';
+import NavBar from '../components/Footer';
+import Sobre from '../components/Sobre';
+import Footer from '../components/NavBar';
 
 function Home() {
     return (
