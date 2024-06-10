@@ -13,10 +13,10 @@
 .p-footer {
     text-align: center;
     font-family: 'Roboto';
-    font-size: 1.5rem;
-    color: black;
+    font-size: 1.3rem;
+    color: white;
     transition: font-size 0.5s ease;
 }
 .p-footer:hover{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }

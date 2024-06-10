@@ -1,9 +1,17 @@
-.text-presentacion {
-    margin: 1rem;
+.sobreMi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.text-presentacion, .title {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .p-presentacion {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Roboto';
 }

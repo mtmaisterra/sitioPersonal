@@ -1,22 +1,22 @@
 import React from 'react';
 import '../css/sobre.css';
 
-function Sobre() {
+export default function Sobre() {
     return (
         <>
             <div className='sobreMi'>
                 <div className='div-sobreMi'>
                     <h1 className='title'>
-                        Hola, soy Teresa Maisterra
+                        Hola, soy María Teresa Maisterra.
                     </h1>
                 </div>
                 <div className='presentacion'>
-                    <div className='div-imagen'>
+                    {/* <div className='div-imagen'>
                         <img src='/mia-2.png' className='img-presentacion' />
-                    </div>
+                    </div> */}
                     <div className='text-presentacion'>
                         <p className='p-presentacion'>
-                            actualmente tengo 48 años, vivo en San Pedro,
+                            Actualmente tengo 48 años, vivo en San Pedro,
                             Departamento Castro Barros en la provincia de La Rioja, República Argentina.
                         </p>
                         <p className='p-presentacion'>
@@ -41,5 +41,4 @@ function Sobre() {
             </div>
         </>
     )
-}
-export default Sobre;
+};

@@ -1,83 +1,55 @@
 .intro {
     width: 100%;
     height: screen;
-    /*   background-color: rgba(86, 73, 110, 0.411); */
-    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .section {
     display: flex;
+    flex-direction: column;
 }
 
 .div-intro {
-    align-items: left;
-    width: 60%;
+    align-items: center;
     margin-left: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-    justify-content: center;
 }
 
 .title-intro {
     text-align: center;
     font-family: 'Roboto';
-    font-size: 10rem;
-    animation: moveLeft 1s infinite alternate;
+    font-size: 6.5rem;
+    animation: moveLeft 3s infinite alternate;
 }
 
 @keyframes moveLeft {
     from {
-        transform: translateX(5);
-        color: blue;
+        transform: translateX(150px);
+        color: white;
     }
-
     to {
-        transform: translateX(-40px);
-        color: red;
+        transform: translateX(-5px);
+        color: gray;
     }
 }
 
 .presentacion-intro {
-    width: 50%;
-    align-items: right;
-    justify-content: center;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    width: 100%;
+    align-items: center;
 }
 
 .img-intro {
-    width: 100%;
-    align-content: center;
-    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
 }
 
 .img-intro-presentacion {
-    width: 40%;
-    margin: 2rem;
-    text-align: center;
     border-radius: 40% 20% 10% 30%;
-}
-
-.div-button {
-    display: flex;
-    width: 100%;
-    align-content: center;
-    margin: 2rem;
-    justify-content: center;
-}
-
-.button-intro {
-    text-align: center;
-    font-size: 2rem;
-    background-color: blue;
-    color: white;
-    border: 6px solid white;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    text-decoration: none;
-    padding: 1rem;
-}
-
-.button-intro:hover {
-    background-color: rgb(64, 7, 118);
-    border: 6px solid black;
 }

@@ -1,8 +1,7 @@
 import React from 'react';
 import '../css/intro.css';
 
-function Intro() { 
-
+export default function Intro() {
     return (
         <>
             <div className='intro'>
@@ -12,21 +11,14 @@ function Intro() {
                             Bienvenidos a mi sitio
                         </h1>
                     </div>
-                    <div className='presentacion-intro'>
-                        <div className='img-intro'>
-                            <img src='/Imagen-2.jpeg' className='img-intro-presentacion' />
-                        </div>
-                    </div>
                 </div>
-                <div className='div-button'>
-                    <div>
-                        <button href='/home' className='button-intro'>
-                            Ingresar
-                        </button>
+                <div className='presentacion-intro'>
+                    <div className='img-intro'>
+                        <img src='/Imagen-2.jpeg'
+                            className='img-intro-presentacion' />
                     </div>
                 </div>
             </div>
         </>
     )
-}
-export default Intro;
+};

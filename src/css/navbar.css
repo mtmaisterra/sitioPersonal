@@ -1,11 +1,6 @@
 .navBar {
     width: 100%;
     display: flex;
-}
-
-.div-navbar {
-    width: 100%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 2%;
@@ -14,7 +9,7 @@
 }
 
 .div-logo {
-    width: 30%;
+    width: 10%;
     justify-content: left;
 }
 
@@ -23,33 +18,51 @@
     transition: transform 0.2s;
 }
 
-.img-logo:hover {
+.img-logo:hover{
     transform: scale(1.5);
 }
 
-.enlaces-navbar {
+.text-navbar {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 90%;
 }
 
-.enlace {
+.text {
     padding: 2%;
     margin: 2%;
+    color: white;
+    font-size: 4rem;
 }
 
-.a-navbar {
+.text:hover{
     color: black;
-    font-size: 1.5rem;
-    text-decoration: none;
-    font-family: 'Roboto';
 }
 
-.a-navbar:hover {
-    padding: 1rem;
-    text-transform: uppercase;
+.enlaces{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    justify-items: left;
+    justify-content: center;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 1rem;
+}
 
+.enlace{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+.enlace:hover{
+    background-color: white;
+    padding: 1rem;
+    color: black;
 }
 
 @media (max-width: 600px) {

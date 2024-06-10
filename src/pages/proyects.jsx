@@ -1,8 +1,7 @@
-function Proyects() {
-   return(
-    <>
+export default function Proyects() {
+   return (
+      <>
 
-    </>
+      </>
    )
-}
-export default Proyects;
+};

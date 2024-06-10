@@ -3,7 +3,7 @@ import '../css/contact.css';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 
-function Contact() {
+export default function Contact() {
     return (
         <>
         <NavBar />
@@ -42,5 +42,4 @@ function Contact() {
             <Footer />
         </>
     )
-}
-export default Contact;
+};
