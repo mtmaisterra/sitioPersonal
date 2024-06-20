@@ -11,6 +11,7 @@
 }
 
 .p-presentacion {
+    width: 100%;
     text-align: justify;
     font-size: 1.7rem;
     font-family: 'Roboto';

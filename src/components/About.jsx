@@ -1,7 +1,7 @@
-import React from 'react';
-import '../css/sobre.css';
 
-export default function Sobre() {
+import '../css/about.css';
+
+const About = () => {
     return (
         <>
             <div className='sobreMi'>
@@ -42,3 +42,4 @@ export default function Sobre() {
         </>
     )
 };
+export default About;

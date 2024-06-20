@@ -21,21 +21,30 @@
     flex-direction: row;
 }
 
-.intro {
-    width: 48%;
+.img {
+    width: 40%;
     justify-content: center;
-    margin: 0.75rem;
-    padding: 0.5rem;
     background-color: black;
+    margin: 0.75rem;
     border-radius: 1rem;
 }
 
-.sobre {
-    width: 48%;
-    justify-content: center;
+.img-propia {
+    width: 85%;
+    align-items: center;
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    border-radius: 14rem;
+}
+
+.about {
+    width: 55%;
+    justify-content: right;
     margin: 0.75rem;
     padding: 0.5rem;
-    background-color:rgb(231, 231, 231);
+    background-color: rgb(231, 231, 231);
     border-radius: 1rem;
 }
 

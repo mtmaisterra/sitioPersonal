@@ -1,12 +1,8 @@
-import React from 'react';
 import '../css/contact.css';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
 
-export default function Contact() {
+const Contacto = () => {
     return (
-        <>
-        <NavBar />
+        <>       
             <form class="form-contact" action="/index.html" method="post" enctype="multipart/form-data">
                 <h1 id="contact" class="title-contact">Contacto</h1>
                 <div class="div-contact">
@@ -39,7 +35,7 @@ export default function Contact() {
                     </button>
                 </div>
             </form>
-            <Footer />
         </>
     )
-};
+}
+export default Contacto;

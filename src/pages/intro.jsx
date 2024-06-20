@@ -1,10 +1,10 @@
-import React from 'react';
+import { BrowserRouter, Link } from 'react-router-dom';
 import '../css/intro.css';
 
-export default function Intro() {
+const Intro = () => {
     return (
         <>
-            <div className='intro'>
+            <div className='Intro'>
                 <div className='section'>
                     <div className='div-intro'>
                         <h1 className='title-intro'>
@@ -21,4 +21,5 @@ export default function Intro() {
             </div>
         </>
     )
-};
+}
+export default Intro;

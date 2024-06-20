@@ -1,8 +1,8 @@
-import React from 'react'
 
-export const estudios = () => {
+const Estudios = () => {
   return (
-    <div>estudios</div>
+    <h1>ESTUDIOS</h1>
   )
 }
+export default Estudios;
 

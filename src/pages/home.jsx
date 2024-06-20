@@ -1,11 +1,12 @@
-import React from 'react';
+
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
-import Sobre from '../components/Sobre';
-import Intro from '../pages/intro';
+import About from '../components/About';
 import '../css/home.css';
+import Intro from './Intro';
 
-export default function Home() {
+
+const Home = () => {
     return (
         <>
             <div className='container'>
@@ -13,18 +14,18 @@ export default function Home() {
                     <NavBar />
                 </div>
                 <div className='home'>
-                    <div className='intro'>
-                        <Intro />
+                    <div className='img'>
+                        <img src='./Imagen-2.jpeg' className='img-propia' />
                     </div>
-                    <div className='sobre'>
-                         <Sobre />
+                    <div className='about'>
+                        <About />
                     </div>
                 </div>
                 <div className='footer'>
-                  <Footer />
+                    <Footer />
                 </div>
             </div>
         </>
     )
 };
-
+export default Home;
