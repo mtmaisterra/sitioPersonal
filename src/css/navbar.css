@@ -1,15 +1,16 @@
 .navBar {
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1rem;
+    margin-right: 1rem;
     border-radius: 4rem;
 }
 
 .div-logo {
-    width: 10%;
+    width: 20%;
+    margin-left: 1rem;
     justify-content: left;
 }
 
