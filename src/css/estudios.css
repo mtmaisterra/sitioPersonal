@@ -1,22 +1,10 @@
-.nav {
-    width: 99%;
-    margin: 2px;
-    height: 5rem;
-    display: flex;
-    border-radius: 1rem;
-    background-color: rgb(113, 113, 114);
-    color: white;
-}
 
-.footer {
-    display: flex;
-    width: 100%;
-}
 
 .titleGral {
     text-align: center;
     font-size: 5rem;
     font-family: 'Roboto';
+    color:rgb(105, 5, 155);
 }
 
 .docente,
@@ -37,6 +25,7 @@
     margin-bottom: 1rem;
     text-align: center;
     font-size: 4rem;
+    color: rgb(105, 5, 155);
     font-family: 'Roboto';
 }
 
@@ -55,7 +44,7 @@
     flex-direction: column;
     margin-left: 3rem;
     margin-right: 3rem;
-    background-color: rgb(47, 45, 45);
+    background-color: rgb(133, 130, 130);
     border-radius: 4rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -73,7 +62,7 @@
 }
 
 .card-date {
-    color:white;
+    color: rgb(105, 5, 155);
     width: 90%;
     height: 70%;
     margin-top: 10px;
@@ -88,7 +77,8 @@ margin-bottom: 2rem;
 
 .button{
     text-align: center;
-    color: black;
+    color: white;
+    background-color: rgb(105, 5, 155);
 border-radius: 2rem;
 font-size: 1rem;
 padding: 1rem;

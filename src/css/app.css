@@ -1,7 +1,10 @@
+body{
+    background-color: rgb(182, 178, 178) ;
+}
 .footer {
     width: 99%;
     height: 4rem;
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(105, 5, 155);
     border-radius: 1rem;
 }
 .navBar {
@@ -15,5 +18,5 @@
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 2rem;
-    background-color: rgb(171, 168, 168);
+    background-color: rgb(105, 5, 155);
 }

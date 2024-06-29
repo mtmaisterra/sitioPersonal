@@ -1,5 +1,6 @@
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../css/intro.css';
+import App from '../App';
 
 const Intro = () => {
     return (
@@ -17,6 +18,11 @@ const Intro = () => {
                         <img src='/Imagen-2.jpeg'
                             className='img-intro-presentacion' />
                     </div>
+                </div>
+                <div className='button'>
+                    <button>
+                        <Link to={<App />} className='button-intro'>Ingresar</Link>
+                    </button>
                 </div>
             </div>
         </>

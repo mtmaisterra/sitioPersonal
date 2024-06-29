@@ -9,6 +9,20 @@
     margin-left: 2rem;
     margin-right: 2rem;
 }
+.title{
+    animation: moveLeft 3s infinite alternate;
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(100px);
+        color: rgb(91, 5, 95);
+    }
+   to {
+        transform: translateX(-15px);
+        color: black;
+    } 
+}
 
 .p-presentacion {
     width: 100%;

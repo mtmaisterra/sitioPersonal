@@ -1,6 +1,7 @@
 body {
     width: 100%;
     height: screen;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
@@ -8,10 +9,10 @@ body {
 .form-contact {
     justify-content: center;
     width: 60%;
-    background-color: rgba(56, 56, 56, 0.953);
+    background-color: rgb(123, 68, 150);
     border: 0.5rem solid black;
-   /*  margin: 10rem;
-    margin-left: 25rem; */
+    margin: 6rem;
+    margin-left: 25rem;
 }
 
 .title-contact {
@@ -21,16 +22,26 @@ body {
     text-align: center;
 }
 
-.input-contact {
-    margin: 1rem;
-    width: 95%;
-    height: 2rem;
+.p-contact {
+    color: white;
+    text-align: ce;
+    margin-left: 6rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
+    font-family: 'Roboto';
+}
+
+.p-contact:hover {
+    font-weight: bolder;
+    text-align: center;
+    transform: scale(1.5);
+    color: rgb(130, 130, 130);
 }
 
 .label-contact {
     color: white;
     text-align: left;
+    text-decoration: underline;
     margin-left: 1rem;
     font-size: 1.5rem;
     padding: 0.5rem;
@@ -44,20 +55,22 @@ body {
     padding: 0.5rem;
 }
 
-.div-submit{
+.div-submit {
     text-align: center;
-    margin: 2rem;    
+    margin: 2rem;
 }
-.button-submit{
+
+.button-submit {
     width: 8rem;
     padding: 1rem;
     font-size: 1.5rem;
     font-family: 'Roboto';
     border-radius: 1rem;
 }
-.button-submit:hover{
-text-transform: uppercase;
-background-color: rgb(7, 7, 7);
-color: white;
-border: 0.5rem solid white;
+
+.button-submit:hover {
+    text-transform: uppercase;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    border: 0.5rem solid white;
 }

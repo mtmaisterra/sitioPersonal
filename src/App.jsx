@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Contacto from './components/Contacto';
+import Contacto from './pages/Contacto';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
-import Estudios from './components/estudios';
-import Home from './components/home';
-import Proyectos from './components/proyectos';
+import Estudios from './pages/estudios';
+import Home from './pages/home';
+import Proyectos from './pages/proyectos';
 import './css/app.css';
 
 

@@ -1,64 +1,65 @@
 import React from 'react';
 import '../css/estudios.css';
 
+
 const cursosEducation = [
   {
     id: 1,
-    image: './CertificadoTerciario.jpg',
     name: 'Profesora en Técnicas Informáticas Aplicadas a Computación',
     description: 'Instituto Superior del Profesorado "Dr Joaquin Victor Gonzalez" Ciudad Autonoma de Buenos Aires, diciembre 2002',
+    image: '/CertificadoTerciario.jpg'
   },
   {
     id: 2,
-    image: './CertificadoContenidosDigitales.jpg',
     name: 'Creación de contenidos digitales interactivos',
     description: 'Nuestra Escuela, La Rioja, julio 2019',
+    image: '/CertificadoContenidosDigitales.jpg'
   },
   {
     id: 3,
-    image: './CertificadoInnovacionTecnologica.jpg',
     name: 'Introducción a la innovación tecnológica',
     description: 'Plataforma de Aprendizaje Virtual, julio 2022',
+    image: '/CertificadoInnovacionTecnologica.jpg'
   },
   {
     id: 4,
-    image: './CertificadoProyectosTecnologicos.jpg',
     name: 'Taller de Proyectos Tecnológicos',
     description: 'Plataforma de Aprendizaje Virtual, julio 2022',
+    image: '/CertificadoProyectosTecnologicos.jpg'
   }
 ];
 
 const cursosProgramacion = [
   {
     id: 1,
-    image: './CertificadoSpring.jpg',
     name: 'Spring y Proyecto Integrador 2',
     description: 'Egg, marzo 2024',
+    image:'/CertificadoSpring.jpg'
   },
   {
     id: 2,
-    image: './CertificadoDesarrolloWeb.jpg',
     name: 'Programación Web desde cero',
     description: 'Egg, diciembre 2023',
+    image:'/CertificadoDesarrolloWeb.jpg'
   },
   {
     id: 3,
-    image: './CertificadoDesarrolloWebFlex.jpg',
     name: 'Desarrollo Web Flex',
     description: 'CoderHouse, junio 2023',
+    image:'/CertificadoDesarrolloWebFlex.jpg'
   },
   {
     id: 4,
-    image: './CertificadoFullStack.jpg',
     name: 'Programación Full Stack',
     description: 'Egg, octubre 2023',
+    image: '/CertificadoFullStack.jpg'
   }
 ];
 
-const Estudios = () => {  
+const Estudios = () => {
   return (
     <>
-      <h1 className='titleGral'>ESTUDIOS</h1>
+      <h1 className='titleGral'>CAPACITACIÓN</h1>
       <div className="docente">
         <div className='div-title'>
           <h2 className="title">Docente</h2>
@@ -66,15 +67,16 @@ const Estudios = () => {
         <div className="cursos">
           {cursosEducation.map((cursos, id) => (
             <div className="card" key={cursos.id}>
-              <div className="card-img">
-                <img className="img" src={cursos.image} />
-              </div>
               <div className='card-date'>
                 <h2 className="name"> {cursos.name} </h2>
                 <h3 className="description">{cursos.description}</h3>
               </div>
               <div className='card-button'>
-                <button className='button'>Leer más...</button>
+                <a href={cursos.image}>
+                  <button className='button'>
+                  Certificado
+                  </button>
+                </a>
               </div>
             </div>
           ))};
@@ -85,17 +87,18 @@ const Estudios = () => {
           <h2 className="title">Programación</h2>
         </div>
         <div className="cursos">
-          {cursosProgramacion.map((cursos, id) => (
-            <div className="card" key={cursos.id}>
-              <div className="card-img">
-                <img className="img" src={cursos.image} />
-              </div>
+          {cursosProgramacion.map((cursosP, id) => (
+            <div className="card" key={cursosP.id}>
               <div className="card-date">
-                <h2 className="name"> {cursos.name} </h2>
-                <h3 className="description">{cursos.description}</h3>
+                <h2 className="name"> {cursosP.name} </h2>
+                <h3 className="description">{cursosP.description}</h3>
               </div>
               <div className='card-button'>
-                <button className='button'>Leer más...</button>
+                <a href={cursosP.image}>
+                  <button className='button'>
+                    Certificado
+                    </button>
+                </a>
               </div>
             </div>
           ))};

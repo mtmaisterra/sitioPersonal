@@ -11,9 +11,6 @@ const About = () => {
                     </h1>
                 </div>
                 <div className='presentacion'>
-                    {/* <div className='div-imagen'>
-                        <img src='/mia-2.png' className='img-presentacion' />
-                    </div> */}
                     <div className='text-presentacion'>
                         <p className='p-presentacion'>
                             Actualmente tengo 48 años, vivo en San Pedro,
