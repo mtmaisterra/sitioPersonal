@@ -32,15 +32,18 @@
 }
 
 .title-proyect {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
+}
+.title-proyect:hover{
+    color: white;
 }
 
 .description-proyect,
 .thecnology-proyect,
 .program-proyect {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -51,4 +54,8 @@
     margin: 0.5rem;
     color: white;
     background-color: rgb(105, 5, 155);
+}
+.button-proyect:hover{
+    color: rgb(105, 5, 155);
+    background-color: rgb(99, 98, 98);
 }
