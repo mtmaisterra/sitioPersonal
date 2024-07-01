@@ -42,7 +42,7 @@ const ejemplos2 = [
     id: 5,
     description: 'Proyecto realizado para la biblioteca privada "El Chacho"',
     program: 'Visual Studio Code',
-    title: 'Biblioteca Sandalio Lujan',
+    title: 'Biblioteca "El Chacho"',
     thecnology: 'React vite, HTML, CSS, Javascript',
     url: 'https://github.com/mtmaisterra/Biblioteca'
   },
