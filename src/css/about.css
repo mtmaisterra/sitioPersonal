@@ -5,11 +5,13 @@
 }
 
 
-.text-presentacion, .title {
+.text-presentacion, .title-about {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.title{
+.title-about{
+    font-size: 4rem;
+    font-family: 'Roboto';
     animation: moveLeft 3s infinite alternate;
 }
 

@@ -1,0 +1,54 @@
+.titleGral-proyect {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Roboto';
+    color: rgb(105, 5, 155);
+}
+
+.div-proyect {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: rgb(105, 5, 155);
+    text-align: center;
+}
+
+.card-proyect {
+    justify-content: space-between;
+    width: 20%;
+    margin: 1rem;
+    background-color: gray;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4rem;
+}
+
+.date-proyect {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.title-proyect {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.description-proyect,
+.thecnology-proyect,
+.program-proyect {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.button-proyect{
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: white;
+    background-color: rgb(105, 5, 155);
+}
