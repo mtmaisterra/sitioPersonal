@@ -40,11 +40,11 @@ const ejemplos = [
 const ejemplos2 = [
   {
     id: 5,
-    description: 'Proyecto realizado para la biblioteca privada "El Chacho"',
+    description: 'Proyecto realizado para la biblioteca virtual gratuita "El Chacho"',
     program: 'Visual Studio Code',
     title: 'Biblioteca "El Chacho"',
     thecnology: 'React vite, HTML, CSS, Javascript',
-    url: 'https://github.com/mtmaisterra/Biblioteca'
+    url: 'https://github.com/mtmaisterra/BibliotecaReact'
   },
 
   {
@@ -62,7 +62,7 @@ const ejemplos2 = [
     program: 'Visual Studio Code',
     title: 'Página web personal',
     thecnology: 'HTML, CSS',
-    url: 'https://github.com/mtmaisterra/mtmaisterra.github.io'
+    url: 'https://github.com/mtmaisterra/SitioWebDocente'
   },
 
   {
