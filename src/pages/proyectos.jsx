@@ -1,4 +1,6 @@
 import '../css/proyectos.css';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 const ejemplos = [
   {
@@ -79,6 +81,7 @@ const ejemplos2 = [
 const Proyectos = () => {
   return (
     <>
+    <NavBar />
       <h1 className='titleGral-proyect'>Proyectos</h1>
       <div className='proyect'>
         <div className="div-proyect">
@@ -133,6 +136,7 @@ const Proyectos = () => {
           ))};
         </div>
       </div>
+      <Footer />
     </>
   )
 }

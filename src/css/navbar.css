@@ -6,6 +6,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 4rem;
+    background-color: rgb(4, 75, 4);
 }
 
 .div-logo {
@@ -27,14 +28,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
 }
 
 .text {
-    padding: 2%;
-    margin: 2%;
+    
     color: white;
     font-size: 3rem;
+    text-decoration: none;
 }
 
 .text:hover{

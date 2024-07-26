@@ -1,8 +1,11 @@
+import Footer from '../components/Footer';
+import NavBar from '../components/NavBar';
 import '../css/contact.css';
 
 const Contacto = () => {
     return (
         <>
+        <NavBar />
             <form className="form-contact" action="/index.html" method="post" enctype="multipart/form-data">
                 <h1 id="contact" className="title-contact">Contacto</h1>
                 <div className="div-contact">
@@ -26,6 +29,7 @@ const Contacto = () => {
                     </div>
                 </div>
             </form>
+            <Footer />
         </>
     )
 }

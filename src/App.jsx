@@ -1,27 +1,24 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Contacto from './pages/Contacto';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar';
 import Estudios from './pages/estudios';
 import Home from './pages/home';
 import Proyectos from './pages/proyectos';
 import './css/app.css';
+import Intro from './pages/Intro';
 
 
 function App() {
     return (
-        <div>
-            <BrowserRouter>
-                <NavBar />
-                <Routes>
-                    <Route path='/proyectos' element={<Proyectos />} />
-                    <Route path='/estudios' element={<Estudios />} />
-                    <Route path='/contacto' element={<Contacto />} />
-                    <Route path='/*' element={<Home />} />
-                </Routes>
-                <Footer />
-            </BrowserRouter>
+        <div>            
+            <Routes>
+                <Route path='/proyectos' element={<Proyectos />} />
+                <Route path='/estudios' element={<Estudios />} />
+                <Route path='/contacto' element={<Contacto />} />
+                <Route path='/Home' element={<Home />} />
+                <Route path='/' element={<Intro />} />
+            </Routes>
+           
         </div>
     )
 }

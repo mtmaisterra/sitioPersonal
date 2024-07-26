@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/estudios.css';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 
 const cursosEducation = [
@@ -59,6 +61,7 @@ const cursosProgramacion = [
 const Estudios = () => {
   return (
     <>
+    <NavBar />
       <h1 className='titleGral'>CAPACITACIÓN</h1>
       <div className="docente">
         <div className='div-title'>
@@ -104,6 +107,7 @@ const Estudios = () => {
           ))};
         </div>
       </div>
+      <Footer />
     </>
   )
 }
