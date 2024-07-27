@@ -1,9 +1,9 @@
-.sobreMi{
+.sobreMi{ 
+    background-color: rgba(91, 5, 95, 0.396);
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-
 
 .text-presentacion, .title-about {
     margin-left: 2rem;
@@ -12,18 +12,8 @@
 .title-about{
     font-size: 4rem;
     font-family: 'Roboto';
-    animation: moveLeft 3s infinite alternate;
-}
-
-@keyframes moveLeft {
-    from {
-        transform: translateX(100px);
-        color: rgb(91, 5, 95);
-    }
-   to {
-        transform: translateX(-15px);
-        color: black;
-    } 
+    color: white;
+   
 }
 
 .p-presentacion {

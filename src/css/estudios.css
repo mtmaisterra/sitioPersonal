@@ -1,10 +1,8 @@
-
-
 .titleGral {
     text-align: center;
     font-size: 5rem;
     font-family: 'Roboto';
-    color:rgb(105, 5, 155);
+    color: white;
 }
 
 .docente,
@@ -25,7 +23,7 @@
     margin-bottom: 1rem;
     text-align: center;
     font-size: 4rem;
-    color: rgb(105, 5, 155);
+    color: white;
     font-family: 'Roboto';
 }
 
@@ -44,7 +42,7 @@
     flex-direction: column;
     margin-left: 3rem;
     margin-right: 3rem;
-    background-color: rgb(133, 130, 130);
+    background-color: rgba(133, 130, 130, 0.448);
     border-radius: 4rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -62,7 +60,7 @@
 }
 
 .card-date {
-    color: rgb(105, 5, 155);
+    color: white;
     width: 90%;
     height: 70%;
     margin-top: 10px;
@@ -71,15 +69,16 @@
     text-align: center;
     font-family: 'Roboto';
 }
-.card-button{
-margin-bottom: 2rem;
+
+.card-button {
+    margin-bottom: 2rem;
 }
 
-.button{
+.button-estudios {
     text-align: center;
     color: white;
-    background-color: rgb(105, 5, 155);
-border-radius: 2rem;
-font-size: 1rem;
-padding: 1rem;
+    background-color: rgba(105, 5, 155, 0.353);
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
 }

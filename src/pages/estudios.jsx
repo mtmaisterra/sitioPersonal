@@ -76,7 +76,7 @@ const Estudios = () => {
               </div>
               <div className='card-button'>
                 <a href={cursos.image}>
-                  <button className='button'>
+                  <button className='button-estudios'>
                   Certificado
                   </button>
                 </a>
@@ -98,7 +98,7 @@ const Estudios = () => {
               </div>
               <div className='card-button'>
                 <a href={cursosP.image}>
-                  <button className='button'>
+                  <button className='button-estudios'>
                     Certificado
                     </button>
                 </a>

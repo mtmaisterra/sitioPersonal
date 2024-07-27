@@ -8,6 +8,7 @@ const ejemplos = [
     description: 'Proyecto realizado sobre el servicio de salud Egg',
     program: 'Visual Studio Code y Netbeans 8.2',
     title: 'Spring Proyecto Integrador',
+    image: '/KazuModa.jpg',
     thecnology: 'Spring, HTML, CSS, Javascript',
     url: 'https://github.com/Nildaluciamonteros/SERVICIOS-DE-SALUD-EGG'
   },
@@ -17,6 +18,7 @@ const ejemplos = [
     description: 'Proyecto desarrollado en curso de Codo a codo',
     program: 'Visual Studio Code',
     title: 'Proyecto SoClean',
+    image: '/SoClean.jpg',
     thecnology: 'HTML, CSS',
     url: 'https://github.com/mtmaisterra/proyectoSoClean'
   },
@@ -26,6 +28,7 @@ const ejemplos = [
     description: 'Proyecto Calculadora básica',
     program: 'Visual Studio Code',
     title: 'Calculadora',
+    image: '/Calculadora.jpg',
     thecnology: 'React vite, HTML, CSS, JavaScript',
     url: 'https://github.com/mtmaisterra/calculadora'
   },
@@ -35,6 +38,7 @@ const ejemplos = [
     description: 'Proyecto desarrollado para la simulación de NoCountry',
     program: 'Visual Studio Code',
     title: 'FishSeason',
+    image: '/FishSeason.jpg',
     thecnology: 'React vite, HTML, CSS, Javascritp',
     url: 'https://github.com/xiriuxb/NoCountry_s15-08-n-node-react'
   }]
@@ -45,6 +49,7 @@ const ejemplos2 = [
     description: 'Proyecto realizado para la biblioteca virtual gratuita "El Chacho"',
     program: 'Visual Studio Code',
     title: 'Biblioteca "El Chacho"',
+    image: '/Biblioteca.jpg',
     thecnology: 'React vite, HTML, CSS, Javascript',
     url: 'https://github.com/mtmaisterra/BibliotecaReact'
   },
@@ -54,6 +59,7 @@ const ejemplos2 = [
     description: 'Proyecto personal como portafolio de desarrollo y proyectos web',
     program: 'Visual Studio Code',
     title: 'Sitio Web Personal',
+    image: '/SitioPersonal.jpeg',
     thecnology: 'React Vite, HTML, CSS, Javascript',
     url: 'https://github.com/mtmaisterra/sitioPersonal'
   },
@@ -63,6 +69,7 @@ const ejemplos2 = [
     description: 'Proyecto personal como docente de escuela secundaria técnica',
     program: 'Visual Studio Code',
     title: 'Página web personal',
+    image: '/Docente.jpg',
     thecnology: 'HTML, CSS',
     url: 'https://github.com/mtmaisterra/SitioWebDocente'
   },
@@ -72,6 +79,7 @@ const ejemplos2 = [
     description: 'Proyecto desarrollado para ver el clima de una localidad o país',
     program: 'Visual Studio Code',
     title: 'Clima',
+    image: '/Clima.jpeg',
     thecnology: 'React vite, HTML, CSS, Javascript',
     url: 'https://github.com/mtmaisterra/clima'
   },
@@ -81,7 +89,7 @@ const ejemplos2 = [
 const Proyectos = () => {
   return (
     <>
-    <NavBar />
+      <NavBar />
       <h1 className='titleGral-proyect'>Proyectos</h1>
       <div className='proyect'>
         <div className="div-proyect">
@@ -89,6 +97,7 @@ const Proyectos = () => {
             <div className="card-proyect"
               key={ejemplos.id}>
               <div className="date-proyect">
+                <img className='img-proyect' src={ejemplos.image} />
                 <h2 className="title-proyect">
                   {ejemplos.title}
                 </h2>
@@ -113,6 +122,7 @@ const Proyectos = () => {
             <div className="card-proyect"
               key={ejemplo.id}>
               <div className="date-proyect">
+                <img className='img-proyect' src= {ejemplo.image}/>                 
                 <h2 className="title-proyect">
                   {ejemplo.title}
                 </h2>

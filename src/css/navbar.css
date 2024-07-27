@@ -6,7 +6,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 4rem;
-    background-color: rgb(4, 75, 4);
+    background-color: rgba(105, 5, 155, 0.418);
 }
 
 .div-logo {
@@ -62,7 +62,7 @@
     border-radius: 1rem;
 }
 .enlace:hover{
-    background-color: rgb(130, 130, 130);
+    background-color: rgba(130, 130, 130, 0.708);
     padding: 1rem;
     color: rgb(105, 5, 155);
 }
