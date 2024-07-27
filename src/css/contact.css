@@ -9,16 +9,18 @@ body {
 .form-contact {
     justify-content: center;
     width: 60%;
-    background-color: rgb(123, 68, 150);
-    border: 0.5rem solid black;
+    background-color: rgba(123, 68, 150, 0.427);
+    border-radius: 3rem;
     margin: 6rem;
     margin-left: 25rem;
+    padding: 4rem;
 }
 
 .title-contact {
     color: white;
     font-family: 'Roboto';
     padding: 1rem;
+    font-size: 4rem;
     text-align: center;
 }
 
