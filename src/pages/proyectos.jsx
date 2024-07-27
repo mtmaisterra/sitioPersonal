@@ -5,12 +5,12 @@ import Footer from '../components/Footer';
 const ejemplos = [
   {
     id: 1,
-    description: 'Proyecto realizado sobre el servicio de salud Egg',
-    program: 'Visual Studio Code y Netbeans 8.2',
-    title: 'Spring Proyecto Integrador',
+    description: 'Proyecto desarrollado para la 1ra simulación de NoCountry',
+    program: 'Visual Studio Code',
+    title: 'Kazu Moda',
     image: '/KazuModa.jpg',
-    thecnology: 'Spring, HTML, CSS, Javascript',
-    url: 'https://github.com/Nildaluciamonteros/SERVICIOS-DE-SALUD-EGG'
+    thecnology: 'React Next, HTML, CSS, JavaScript',
+    url: 'Por problemas no se puede ver el repositorio'
   },
 
   {
@@ -35,11 +35,11 @@ const ejemplos = [
 
   {
     id: 4,
-    description: 'Proyecto desarrollado para la simulación de NoCountry',
+    description: 'Proyecto desarrollado para la 2da simulación de NoCountry',
     program: 'Visual Studio Code',
     title: 'FishSeason',
     image: '/FishSeason.jpg',
-    thecnology: 'React vite, HTML, CSS, Javascritp',
+    thecnology: 'React vite, HTML, CSS, JavaScript',
     url: 'https://github.com/xiriuxb/NoCountry_s15-08-n-node-react'
   }]
 
