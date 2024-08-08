@@ -25,10 +25,10 @@ const ejemplos = [
 
   {
     id: 3,
-    description: 'Proyecto Calculadora básica',
+    description: 'Proyecto desarrollada para la 3ra simulacion de NoCountry',
     program: 'Visual Studio Code',
-    title: 'Calculadora',
-    image: '/Calculadora.jpg',
+    title: 'Colaborart',
+    image: '/colaborart.jpg',
     thecnology: 'React vite, HTML, CSS, JavaScript',
     url: 'https://github.com/mtmaisterra/calculadora'
   },

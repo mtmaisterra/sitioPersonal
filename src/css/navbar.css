@@ -20,7 +20,7 @@
     transition: transform 0.2s;
 }
 
-.img-logo:hover{
+.img-logo:hover {
     transform: scale(1.5);
 }
 
@@ -32,17 +32,17 @@
 }
 
 .text {
-    
+
     color: white;
     font-size: 3rem;
     text-decoration: none;
 }
 
-.text:hover{
+.text:hover {
     color: rgb(130, 130, 130);
 }
 
-.enlaces{
+.enlaces {
     display: flex;
     width: 20%;
     flex-direction: row;
@@ -53,7 +53,7 @@
     margin-right: 1rem;
 }
 
-.enlace{
+.enlace {
     text-decoration: none;
     color: white;
     padding: 1rem;
@@ -61,29 +61,38 @@
     font-size: 2rem;
     border-radius: 1rem;
 }
-.enlace:hover{
+
+.enlace:hover {
     background-color: rgba(130, 130, 130, 0.708);
     padding: 1rem;
     color: rgb(105, 5, 155);
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .navBar {
+        display: flexbox;
         flex-direction: column;
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: rgba(39, 116, 4, 0.418);
     }
 
     .div-navbar {
+        display: flexbox;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .div-logo {
-        width: 100%;
+        width: 50%;
         justify-content: center;
     }
 
     .img-logo {
-        width: 30%;
+        width: 50%;
+        margin-top: 1rem;
+        justify-content: center;
     }
 
     .enlaces-navbar {

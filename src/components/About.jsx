@@ -30,7 +30,7 @@ const About = () => {
                         </p>
                         <p className='p-presentacion'>
                             Estoy en búsqueda de una oportunidad laboral que me permita aplicar y expandir mis conocimientos en desarrollo front-end,
-                            preferentemente en un entorno de trabajo remoto. Estoy entusiasmado por la posibilidad de contribuir con mi
+                            preferentemente en un entorno de trabajo remoto. Estoy entusiasmada por la posibilidad de contribuir con mi
                             experiencia docente y técnica para crear soluciones web innovadoras y accesibles.
                         </p>
                     </div>

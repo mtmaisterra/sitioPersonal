@@ -1,8 +1,7 @@
-
-body{
-background-image: url(/fondoOscuro.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+body {
+    background-image: url(/fondoOscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .intro {
@@ -99,8 +98,81 @@ background-size: cover;
     margin-bottom: 3rem;
     box-shadow: 0.5rem 0.5rem 0 0 rgb(135, 135, 135);
 }
-.btn-intro:hover{
+
+.btn-intro:hover {
     background-color: rgb(232, 229, 229);
-    color: rgb(13, 13, 13);   
+    color: rgb(13, 13, 13);
     box-shadow: 0.5rem 0.5rem 0 0 rgb(113, 112, 112);
+}
+
+@media screen and (max-width: 600px) {
+
+    .section {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .div-intro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(2, 86, 16, 0.312);
+        box-shadow: 0rem 0rem 0rem 0rem rgba(143, 141, 141, 0.429);
+    }
+
+    .title-intro {
+        font-size: 4rem;
+        text-align: center;
+        animation: moveLeft 3s infinite alternate;
+        padding-right: 4rem;
+        padding-left: 2rem;
+    }
+    @keyframes moveLeft {
+        from {
+            transform: translateX(20px);
+            color: rgb(247, 244, 244);
+        }
+    
+        to {
+            transform: translateY(-15px);
+            color: rgb(108, 107, 107);
+        }
+    }
+      
+    .img-intro {
+        justify-items: center;
+        align-items: center;
+        width: 30%;
+    }
+    
+    .img-intro-presentacion {
+        border-radius: 40% 20% 10% 30%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 8rem;
+        margin-bottom: 4rem;
+    }
+        
+    .btn-intro {
+        align-items: center;
+        background-color: rgba(3, 69, 9, 0.608);
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+        margin-left: 3rem;
+        margin-bottom: 6rem;
+        box-shadow: 0.25rem 0.25rem 0 0 rgb(135, 135, 135);
+    }
+    
+    .btn-intro:hover {
+        background-color: rgb(232, 229, 229);
+        color: rgb(13, 13, 13);
+        box-shadow: 0.5rem 0.5rem 0 0 rgb(113, 112, 112);
+    }
 }
