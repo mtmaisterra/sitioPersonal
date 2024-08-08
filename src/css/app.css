@@ -1,12 +1,14 @@
-body{
-    background-color: rgb(182, 178, 178) ;
+body {
+    background-color: rgb(182, 178, 178);
 }
+
 .footer {
     width: 99%;
     height: 4rem;
     background-color: rgba(105, 5, 155, 0.557);
     border-radius: 1rem;
 }
+
 .navBar {
     width: 95%;
     height: 5%;
@@ -19,4 +21,19 @@ body{
     margin-right: 1rem;
     border-radius: 2rem;
     background-color: rgba(105, 5, 155, 0.474);
+}
+
+@media screen and (max-width: 600px)  {
+    body {
+        background-color: rgb(182, 178, 178);
+    }
+    .footer {
+        width: 99%;
+        background-color: rgba(36, 94, 3, 0.557);
+    }
+
+    .navBar {
+        justify-content: center;
+        background-color: rgba(36, 94, 3, 0.557);
+    }
 }

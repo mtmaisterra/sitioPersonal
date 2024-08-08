@@ -48,17 +48,6 @@
     margin-bottom: 3rem;
 }
 
-.card-img {
-    position: relative;
-    justify-content: center;
-}
-
-.img {
-    width: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
 .card-date {
     color: white;
     width: 90%;
@@ -83,8 +72,45 @@
     padding: 1rem;
 }
 
-.button-estudios:hover{
+.button-estudios:hover {
     color: rgb(105, 5, 155);
     background-color: rgba(255, 255, 255, 0.437);
-    box-shadow: 0.25rem 0.25rem 0 0 ;
+    box-shadow: 0.25rem 0.25rem 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .titleGral {
+        font-size: 3rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .cursos {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 50%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        border-radius: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .button-estudios {
+        background-color: rgba(33, 97, 3, 0.542);
+        border-radius: 2rem;
+        font-size: 0.75rem;
+    }
+
+    .button-estudios:hover {
+        color: rgba(33, 97, 3, 0.542);
+        background-color: rgba(255, 255, 255, 0.437);
+        box-shadow: 0;
+    }
 }

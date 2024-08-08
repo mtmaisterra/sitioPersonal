@@ -1,19 +1,21 @@
-.sobreMi{ 
+.sobreMi {
     background-color: rgba(91, 5, 95, 0.396);
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.text-presentacion, .title-about {
+.text-presentacion,
+.title-about {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.title-about{
+
+.title-about {
     font-size: 4rem;
     font-family: 'Roboto';
     color: white;
-   
+
 }
 
 .p-presentacion {
@@ -22,4 +24,18 @@
     font-size: 1.7rem;
     font-family: 'Roboto';
     color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .sobreMi {
+        background-color: rgba(22, 77, 2, 0.396);
+    }
+
+    .title-about {
+        font-size: 2.5rem;
+    }
+
+    .p-presentacion {
+        font-size: 1.5rem;
+    }
 }

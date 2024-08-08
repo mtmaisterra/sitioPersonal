@@ -122,7 +122,7 @@ const Proyectos = () => {
             <div className="card-proyect"
               key={ejemplo.id}>
               <div className="date-proyect">
-                <img className='img-proyect' src= {ejemplo.image}/>                 
+                <img className='img-proyect' src={ejemplo.image} />
                 <h2 className="title-proyect">
                   {ejemplo.title}
                 </h2>

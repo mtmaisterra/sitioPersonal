@@ -10,7 +10,7 @@ import Intro from './pages/Intro';
 
 function App() {
     return (
-        <div>            
+        <div>
             <Routes>
                 <Route path='/proyectos' element={<Proyectos />} />
                 <Route path='/estudios' element={<Estudios />} />
@@ -18,7 +18,6 @@ function App() {
                 <Route path='/Home' element={<Home />} />
                 <Route path='/' element={<Intro />} />
             </Routes>
-           
         </div>
     )
 }

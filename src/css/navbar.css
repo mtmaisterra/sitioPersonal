@@ -65,42 +65,43 @@
 .enlace:hover {
     background-color: rgba(130, 130, 130, 0.708);
     padding: 1rem;
-    color: rgb(105, 5, 155);
+    color: rgb(51, 2, 80);
 }
 
 @media screen and (max-width: 600px) {
     .navBar {
-        display: flexbox;
         flex-direction: column;
-
         margin-left: 1rem;
         margin-right: 1rem;
-        background-color: rgba(39, 116, 4, 0.418);
+        background-color: rgba(33, 97, 3, 0.542);
     }
 
     .div-navbar {
-        display: flexbox;
-        flex-direction: column;
         align-items: center;
     }
 
     .div-logo {
-        width: 50%;
+        width: 40%;
         justify-content: center;
     }
 
     .img-logo {
-        width: 50%;
+        width: 40%;
         margin-top: 1rem;
         justify-content: center;
     }
-
-    .enlaces-navbar {
+.text{
+    font-size: 2rem;
+}
+    .enlaces {
         width: 100%;
-        justify-content: space-around;
+        justify-content: center;
     }
 
-    .a-navbar {
-        font-size: 1rem;
+    .enlace {
+        font-size: 1.5rem;
+    }
+    .enlace:hover{
+        color: rgb(12, 54, 2);
     }
 }

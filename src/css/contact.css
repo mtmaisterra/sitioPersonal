@@ -50,29 +50,35 @@ body {
     font-family: 'Roboto';
 }
 
-.input-comentarios {
-    margin: 1rem;
-    width: 95%;
-    height: 10rem;
-    padding: 0.5rem;
-}
+@media screen and (max-width: 600px) {
 
-.div-submit {
-    text-align: center;
-    margin: 2rem;
-}
+    body {
+        flex-direction: row;
+    }
 
-.button-submit {
-    width: 8rem;
-    padding: 1rem;
-    font-size: 1.5rem;
-    font-family: 'Roboto';
-    border-radius: 1rem;
-}
+    .form-contact {
+        width: 70%;
+        background-color: rgba(36, 94, 3, 0.557);
+        margin-left: 6rem;
+        padding: 2rem;
+    }
 
-.button-submit:hover {
-    text-transform: uppercase;
-    background-color: rgb(7, 7, 7);
-    color: white;
-    border: 0.5rem solid white;
+    .title-contact {
+        font-size: 3rem;
+    }
+
+    .p-contact {
+        font-size: 1rem;
+        margin-left: 3rem;
+    }
+
+    .p-contact:hover {
+        transform: scale(1.25);       
+    }
+
+    .label-contact {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
 }

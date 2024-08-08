@@ -30,7 +30,8 @@
     font-size: 1rem;
     text-align: center;
 }
-.img-proyect{
+
+.img-proyect {
     width: 100%;
     margin: 0;
     height: 20rem;
@@ -41,7 +42,8 @@
     font-size: 2.5rem;
     text-align: center;
 }
-.title-proyect:hover{
+
+.title-proyect:hover {
     color: white;
 }
 
@@ -53,7 +55,7 @@
     text-align: center;
 }
 
-.button-proyect{
+.button-proyect {
     border-radius: 1rem;
     font-size: 1rem;
     padding: 0.5rem;
@@ -61,8 +63,50 @@
     color: white;
     background-color: rgba(105, 5, 155, 0.51);
 }
-.button-proyect:hover{
+
+.button-proyect:hover {
     color: rgb(105, 5, 155);
-    background-color: rgba(169, 162, 162, 0.557);
-    box-shadow: 0.25rem 0.25rem 0 0 ;
+    background-color: rgba(218, 208, 208, 0.557);
+    box-shadow: 0.25rem 0.25rem 0 0;
+}
+
+@media screen and (max-width: 600px) {
+    .titleGral-proyect {
+        font-size: 2.5rem;
+    }
+
+    .div-proyect {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-proyect {
+        justify-content: center;
+        width: 40%;
+    }
+
+    .date-proyect {
+        font-size: 0.5rem;
+    }
+
+    .title-proyect {
+        font-size: 1.5rem;
+    }
+
+    .description-proyect,
+    .thecnology-proyect,
+    .program-proyect {
+        font-size: 0.75rem;
+    }
+
+    .button-proyect {
+        font-size: 0.5rem;
+        background-color: rgba(33, 97, 3, 0.542);
+    }
+
+    .button-proyect:hover {
+        color: rgba(33, 97, 3, 0.542);
+        background-color: rgba(247, 242, 242, 0.557);
+        box-shadow: 0;
+    }
 }
