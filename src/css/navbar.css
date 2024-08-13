@@ -68,8 +68,47 @@
     color: rgb(51, 2, 80);
 }
 
+@media screen and (max-width: 1080px){
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: rgba(2, 8, 77, 0.396);
+    }
+
+    .div-navbar {
+        align-items: center;
+    }
+
+    .div-logo {
+        width: 40%;
+        justify-content: center;
+    }
+
+    .img-logo {
+        width: 40%;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+.text{
+    font-size: 2rem;
+}
+    .enlaces {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .enlace {
+        font-size: 1.5rem;
+    }
+    .enlace:hover{
+        color: rgb(12, 54, 2);
+    }
+}
 @media screen and (max-width: 600px) {
     .navBar {
+        display: flex;
         flex-direction: column;
         margin-left: 1rem;
         margin-right: 1rem;

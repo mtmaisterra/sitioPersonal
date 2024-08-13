@@ -25,6 +25,19 @@
     font-family: 'Roboto';
     color: white;
 }
+@media screen and (max-width: 1080px){
+    .sobreMi {
+        background-color: rgba(2, 8, 77, 0.396);
+    }
+
+    .title-about {
+        font-size: 2.5rem;
+    }
+
+    .p-presentacion {
+        font-size: 1.5rem;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .sobreMi {

@@ -44,7 +44,7 @@ body {
     }
 
     to {
-        transform: translateY(-5px);
+        transform: translateX(-5px);
         color: gray;
     }
 }
@@ -137,22 +137,22 @@ body {
         }
     
         to {
-            transform: translateY(-15px);
+            transform: translateX(-15px);
             color: rgb(108, 107, 107);
         }
     }
       
     .img-intro {
-        justify-items: center;
-        align-items: center;
+        display: flex;
         width: 30%;
+        justify-items: center;
     }
     
     .img-intro-presentacion {
         border-radius: 40% 20% 10% 30%;
         align-items: center;
         justify-content: center;
-        margin-left: 8rem;
+        margin-left: 16rem;
         margin-bottom: 4rem;
     }
         

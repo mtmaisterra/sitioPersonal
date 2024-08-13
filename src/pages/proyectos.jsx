@@ -27,7 +27,7 @@ const ejemplos = [
     id: 3,
     description: 'Proyecto desarrollada para la 3ra simulacion de NoCountry',
     program: 'Visual Studio Code',
-    title: 'Colaborart',
+    title: 'ColaborArt',
     image: '/colaborart.jpg',
     thecnology: 'React vite, HTML, CSS, JavaScript',
     url: 'https://github.com/mtmaisterra/calculadora'
@@ -68,7 +68,7 @@ const ejemplos2 = [
     id: 7,
     description: 'Proyecto personal como docente de escuela secundaria técnica',
     program: 'Visual Studio Code',
-    title: 'Página web personal',
+    title: 'Página web Docente',
     image: '/Docente.jpg',
     thecnology: 'HTML, CSS',
     url: 'https://github.com/mtmaisterra/SitioWebDocente'

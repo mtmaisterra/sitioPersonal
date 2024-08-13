@@ -22,6 +22,23 @@ body {
     border-radius: 2rem;
     background-color: rgba(105, 5, 155, 0.474);
 }
+@media screen and (max-width: 1080px){
+    body {
+        background-color: rgb(182, 178, 178);
+    }
+    .footer {
+        width: 99%;
+        background-color: rgba(2, 8, 77, 0.396);
+        display: flex;
+        text-align: center;
+    }
+
+    .navBar {
+        justify-content: space-around;
+        background-color: rgba(2, 8, 77, 0.396);
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 600px)  {
     body {
@@ -33,7 +50,8 @@ body {
     }
 
     .navBar {
-        justify-content: center;
+        justify-content: space-around;
         background-color: rgba(36, 94, 3, 0.557);
+        text-align: center;
     }
 }

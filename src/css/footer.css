@@ -21,7 +21,15 @@
     font-size: 1.5rem;
     color:rgb(130, 130, 130);
 }
-
+@media screen and (max-width: 1080px) {
+    
+    .p-footer{
+        font-size: 0.95rem;
+    }
+    .p-footer:hover{
+        font-size: 1.2rem;
+    }
+}
 @media screen and (max-width: 600px) {
     
     .p-footer{

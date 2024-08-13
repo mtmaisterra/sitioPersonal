@@ -69,8 +69,7 @@
     background-color: rgba(218, 208, 208, 0.557);
     box-shadow: 0.25rem 0.25rem 0 0;
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     .titleGral-proyect {
         font-size: 2.5rem;
     }
@@ -78,6 +77,7 @@
     .div-proyect {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .card-proyect {
@@ -101,11 +101,52 @@
 
     .button-proyect {
         font-size: 0.5rem;
-        background-color: rgba(33, 97, 3, 0.542);
+        background-color: rgba(2, 8, 77, 0.396);
     }
 
     .button-proyect:hover {
-        color: rgba(33, 97, 3, 0.542);
+        color: rgba(2, 8, 77, 0.396);
+        background-color: rgba(247, 242, 242, 0.557);
+        box-shadow: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .titleGral-proyect {
+        font-size: 2.5rem;
+    }
+
+    .div-proyect {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-proyect {
+        justify-content: center;
+        width: 40%;
+    }
+
+    .date-proyect {
+        font-size: 0.5rem;
+    }
+
+    .title-proyect {
+        font-size: 1.5rem;
+    }
+
+    .description-proyect,
+    .thecnology-proyect,
+    .program-proyect {
+        font-size: 0.75rem;
+    }
+
+    .button-proyect {
+        font-size: 0.5rem;
+        background-color: rgba(2, 8, 77, 0.396);
+    }
+
+    .button-proyect:hover {
+        color: rgba(2, 8, 77, 0.396);
         background-color: rgba(247, 242, 242, 0.557);
         box-shadow: 0;
     }
